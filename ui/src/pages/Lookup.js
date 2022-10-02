@@ -11,6 +11,15 @@ import { delay } from "../utils";
 
 
 
+if (process.env.NODE_ENV === 'production') {
+   axios.interceptors.request.use((config) => {
+      config.url = `${process.env.REACT_APP_BACKEND_URL}${config.url}`;
+      return config;
+   });
+}
+
+
+
 const actionsDivStyle = css({
    '& .btn': {
       margin: '10px auto'

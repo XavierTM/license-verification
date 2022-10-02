@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Lookup from './pages/Lookup';
 import { Provider } from 'react-redux'
 import store from './store';
+import ErrorBoundary from './components/ErrorBoundary';
 
 
 // dimensions
@@ -25,16 +26,18 @@ setDimensions();
 
 function App() {
   return (
-    <Provider store={store}>
-      <AppWrapper router="hash">
+    <ErrorBoundary>
+      <Provider store={store}>
+        <AppWrapper router="hash">
 
-        <Navbar />
+          <Navbar />
 
-        <Route path="/" component={Login} />
-        <Route path="/lookup" component={Lookup} />
+          <Route path="/" component={Login} />
+          <Route path="/lookup" component={Lookup} />
 
-      </AppWrapper>
-    </Provider>
+        </AppWrapper>
+      </Provider>
+    </ErrorBoundary>
   );
 }
 

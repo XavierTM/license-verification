@@ -6,6 +6,15 @@ import Blockquote from "./Blockquote";
 import { Disclosure } from "@headlessui/react";
 
 
+function geneateImageUrl(license_no) {
+
+   const path = `/img/drivers/${license_no}.jpg`;
+   if (process.env.NODE_ENV !== 'production')
+      return path;
+
+   return process.env.REACT_APP_BACKEND_URL + path;
+}
+
 function LicenseModal(props) {
 
    const { close, data, open } = props; console.log({ open });
@@ -38,7 +47,7 @@ function LicenseModal(props) {
 
       <DialogContent>
          <img 
-            src={`/img/drivers/${data.license_no}.jpg`}
+            src={geneateImageUrl(data.license_no)}
             alt=""
             style={{
                width: '50%',
