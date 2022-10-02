@@ -6,6 +6,7 @@ const dotenv = require('dotenv');
 const { init: dbInit, Driver, Offense } = require('./db');
 const Joi = require('@xavisoft/joi');
 const morgan = require('morgan');
+const cors  = require('cors');
 
 dotenv.config();
 
@@ -13,6 +14,10 @@ dotenv.config();
 const app = express();
 
 // middlewares
+app.use(cors({
+   origin: '*'
+}));
+
 app.use(morgan('dev'));
 app.use(express.static('static'))
 app.use(express.json());
