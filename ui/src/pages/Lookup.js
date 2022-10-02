@@ -49,7 +49,8 @@ class Lookup extends Page {
          await window.codescanner.start();
          const code = await window.codescanner.scan();
          await window.codescanner.stop();
-         await this.lookup('license_no', code);
+         const license_no = code.trim();
+         await this.lookup('license_no', license_no);
 
       } catch (err) {
          
