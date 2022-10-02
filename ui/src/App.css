@@ -1,0 +1,54 @@
+
+
+.page {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: var(--navbar-height);
+}
+
+.fill-container, .fill-parent {
+	height: 100%;
+	width: 100%;
+}
+
+
+.center-align {
+	text-align: center;
+}
+
+.right-align {
+	text-align: right;
+}
+
+
+.valign, .v-align {
+	display: flex;
+	align-items: center;
+}
+
+.halign, .h-align {
+	display: flex;
+	justify-content: center;
+}
+
+.vhalign, .vh-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.rounded {
+	border-radius: 30px !important;
+}
+
+
+
+
+.truncate {
+	white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
