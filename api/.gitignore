@@ -3,3 +3,4 @@
 node_modules
 db/db.sqlite
 package_lock.json
+sharable

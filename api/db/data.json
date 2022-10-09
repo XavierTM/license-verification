@@ -1,0 +1,254 @@
+[
+   {
+      "name": "Brandy",
+      "surname": "Ngwenya",
+      "sex": "Female",
+      "dob": "1993-12-21T16:40:13.075Z",
+      "national_id_no": "15-81293U65",
+      "license_no": "90606Y",
+      "class": "4",
+      "createdAt": "2017-02-08T02:45:37.866Z",
+      "Offenses": [
+         {
+            "id": 1,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2020-04-10T18:33:14.926Z",
+            "driver": "90606Y"
+         }
+      ]
+   },
+   {
+      "name": "Stephan",
+      "surname": "Mahachi",
+      "sex": "Male",
+      "dob": "1984-04-25T01:56:42.880Z",
+      "national_id_no": "65-33611Y99",
+      "license_no": "28412U",
+      "class": "2",
+      "createdAt": "2010-02-09T18:01:50.910Z",
+      "Offenses": [
+         {
+            "id": 2,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2018-12-15T05:29:37.712Z",
+            "driver": "28412U"
+         }
+      ]
+   },
+   {
+      "name": "Edmond",
+      "surname": "Sigauke",
+      "sex": "Male",
+      "dob": "1985-03-13T04:15:29.741Z",
+      "national_id_no": "57-81716P38",
+      "license_no": "69552Q",
+      "class": "1",
+      "createdAt": "2007-05-25T15:39:51.970Z",
+      "Offenses": [
+         {
+            "id": 4,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2021-07-01T18:35:02.865Z",
+            "driver": "69552Q"
+         },
+         {
+            "id": 3,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2011-01-26T17:25:39.741Z",
+            "driver": "69552Q"
+         }
+      ]
+   },
+   {
+      "name": "Lilyan",
+      "surname": "Ndoro",
+      "sex": "Female",
+      "dob": "1990-11-19T07:43:59.095Z",
+      "national_id_no": "39-83502V84",
+      "license_no": "34723O",
+      "class": "1",
+      "createdAt": "2014-07-30T16:58:24.350Z",
+      "Offenses": []
+   },
+   {
+      "name": "Tafadzwa",
+      "surname": "Ndoro",
+      "sex": "Male",
+      "dob": "1975-05-12T08:39:32.975Z",
+      "national_id_no": "27-70114V33",
+      "license_no": "35986T",
+      "class": "3",
+      "createdAt": "2004-07-10T17:09:45.397Z",
+      "Offenses": [
+         {
+            "id": 5,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2021-11-04T01:46:47.383Z",
+            "driver": "35986T"
+         },
+         {
+            "id": 6,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2014-04-29T09:54:38.947Z",
+            "driver": "35986T"
+         }
+      ]
+   },
+   {
+      "name": "Tinashe",
+      "surname": "Mpofu",
+      "sex": "Male",
+      "dob": "1974-09-07T22:39:22.320Z",
+      "national_id_no": "54-66267Z77",
+      "license_no": "69743P",
+      "class": "4",
+      "createdAt": "2000-12-16T02:14:55.931Z",
+      "Offenses": [
+         {
+            "id": 9,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2007-09-14T10:09:37.006Z",
+            "driver": "69743P"
+         },
+         {
+            "id": 8,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2018-11-19T07:02:47.978Z",
+            "driver": "69743P"
+         },
+         {
+            "id": 7,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2012-09-06T09:15:20.316Z",
+            "driver": "69743P"
+         },
+         {
+            "id": 10,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2021-01-12T04:52:05.895Z",
+            "driver": "69743P"
+         }
+      ]
+   },
+   {
+      "name": "Pete",
+      "surname": "Mubaiwa",
+      "sex": "Male",
+      "dob": "1977-02-11T09:24:18.053Z",
+      "national_id_no": "97-11686S33",
+      "license_no": "82689G",
+      "class": "3",
+      "createdAt": "2006-01-22T22:26:22.142Z",
+      "Offenses": [
+         {
+            "id": 11,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2020-05-18T13:32:59.575Z",
+            "driver": "82689G"
+         },
+         {
+            "id": 13,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2010-02-04T16:57:34.496Z",
+            "driver": "82689G"
+         },
+         {
+            "id": 12,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2020-03-14T18:28:51.014Z",
+            "driver": "82689G"
+         },
+         {
+            "id": 14,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2009-12-25T20:55:21.366Z",
+            "driver": "82689G"
+         }
+      ]
+   },
+   {
+      "name": "Oprah",
+      "surname": "Ncube",
+      "sex": "Female",
+      "dob": "1995-01-17T13:57:11.678Z",
+      "national_id_no": "69-28041Z55",
+      "license_no": "89339W",
+      "class": "2",
+      "createdAt": "2018-08-12T17:14:25.048Z",
+      "Offenses": [
+         {
+            "id": 15,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2020-03-07T22:42:53.419Z",
+            "driver": "89339W"
+         }
+      ]
+   },
+   {
+      "name": "Shania",
+      "surname": "Hove",
+      "sex": "Female",
+      "dob": "1975-10-02T16:21:50.493Z",
+      "national_id_no": "89-41584D21",
+      "license_no": "82046D",
+      "class": "3",
+      "createdAt": "2004-02-13T12:42:21.826Z",
+      "Offenses": [
+         {
+            "id": 16,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2016-02-09T07:12:36.331Z",
+            "driver": "82046D"
+         }
+      ]
+   },
+   {
+      "name": "Nomsa",
+      "surname": "Mapfumo",
+      "sex": "Female",
+      "dob": "1992-05-03T07:53:22.492Z",
+      "national_id_no": "24-93849I26",
+      "license_no": "24302U",
+      "class": "3",
+      "createdAt": "2020-09-08T12:01:26.453Z",
+      "Offenses": [
+         {
+            "id": 18,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2021-04-18T21:25:38.832Z",
+            "driver": "24302U"
+         },
+         {
+            "id": 19,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2020-10-05T22:25:32.893Z",
+            "driver": "24302U"
+         },
+         {
+            "id": 17,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-02-16T10:32:51.512Z",
+            "driver": "24302U"
+         }
+      ]
+   }
+]

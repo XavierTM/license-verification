@@ -1,6 +1,5 @@
 const { Model, DataTypes, Sequelize } = require("sequelize");
 const { LICENSE_CLASSES, SEXES } = require("../config");
-const data = require("./data");
 
 class Driver extends Model {
    static init(sequelize) {
@@ -71,10 +70,20 @@ async function init() {
 
    await sequelize.sync({ force: true });
 
-   await Driver.bulkCreate(data.drivers);
-   await Offense.bulkCreate(data.offenses);
+   const json = await require('fs').promises.readFile(`${__dirname}/data.json`, { encoding: 'utf8' });
+   const drivers = JSON.parse(json);
+   const offenses = drivers.reduce((prev, driver) => {
+      prev.push(...driver.Offenses);
+      return prev;
+   }, []);
+   
+
+   await Driver.bulkCreate(drivers);
+   await Offense.bulkCreate(offenses);
+
 
 }
+
 
 module.exports = {
    Driver,

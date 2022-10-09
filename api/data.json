@@ -1,0 +1,822 @@
+[
+   {
+      "name": "Destin",
+      "surname": "Ncube",
+      "sex": "Female",
+      "dob": "2010-04-22T00:00:00.000Z",
+      "national_id_no": "33-32396V57",
+      "license_no": "41453N",
+      "class": "2",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 3,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 5,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 7,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 2,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 8,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 4,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 9,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 10,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 1,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         },
+         {
+            "id": 6,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "41453N"
+         }
+      ]
+   },
+   {
+      "name": "Hobart",
+      "surname": "Mapfumo",
+      "sex": "Female",
+      "dob": "1975-03-04T00:00:00.000Z",
+      "national_id_no": "30-83253B37",
+      "license_no": "27699K",
+      "class": "4",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 13,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 16,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 17,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 12,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 15,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 11,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 14,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 20,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 18,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         },
+         {
+            "id": 19,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "27699K"
+         }
+      ]
+   },
+   {
+      "name": "Rebecca",
+      "surname": "Marufu",
+      "sex": "Male",
+      "dob": "1984-08-19T00:00:00.000Z",
+      "national_id_no": "73-92850U24",
+      "license_no": "83943C",
+      "class": "2",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 24,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 30,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 27,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 28,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 29,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 21,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 23,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 22,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 25,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         },
+         {
+            "id": 26,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83943C"
+         }
+      ]
+   },
+   {
+      "name": "Aurore",
+      "surname": "Sigauke",
+      "sex": "Male",
+      "dob": "2015-03-12T00:00:00.000Z",
+      "national_id_no": "72-27945B18",
+      "license_no": "54442F",
+      "class": "2",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 35,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 36,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 37,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 31,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 33,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 38,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 40,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 32,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 39,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         },
+         {
+            "id": 34,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "54442F"
+         }
+      ]
+   },
+   {
+      "name": "Alvena",
+      "surname": "Dube",
+      "sex": "Male",
+      "dob": "2010-02-09T00:00:00.000Z",
+      "national_id_no": "20-49010Q66",
+      "license_no": "69943X",
+      "class": "2",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 49,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 48,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 42,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 44,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 47,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 50,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 41,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 45,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 43,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         },
+         {
+            "id": 46,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "69943X"
+         }
+      ]
+   },
+   {
+      "name": "Dessie",
+      "surname": "Taruvinga",
+      "sex": "Male",
+      "dob": "2008-08-21T00:00:00.000Z",
+      "national_id_no": "28-15864Z55",
+      "license_no": "83295O",
+      "class": "2",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 56,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 60,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 52,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 53,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 54,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 58,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 51,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 55,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 57,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         },
+         {
+            "id": 59,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "83295O"
+         }
+      ]
+   },
+   {
+      "name": "Delbert",
+      "surname": "Marufu",
+      "sex": "Male",
+      "dob": "2014-11-04T00:00:00.000Z",
+      "national_id_no": "12-69766E72",
+      "license_no": "94415X",
+      "class": "3",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 61,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 68,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 66,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 65,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 69,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 64,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 67,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 62,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 63,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         },
+         {
+            "id": 70,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "94415X"
+         }
+      ]
+   },
+   {
+      "name": "Antonina",
+      "surname": "Sibanda",
+      "sex": "Female",
+      "dob": "2007-07-05T00:00:00.000Z",
+      "national_id_no": "56-65817M21",
+      "license_no": "33618E",
+      "class": "2",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 78,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 79,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 71,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 74,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 73,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 76,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 72,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 77,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 80,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         },
+         {
+            "id": 75,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "33618E"
+         }
+      ]
+   },
+   {
+      "name": "Bridgette",
+      "surname": "Mapfumo",
+      "sex": "Male",
+      "dob": "2013-11-16T00:00:00.000Z",
+      "national_id_no": "94-52379Q58",
+      "license_no": "61878K",
+      "class": "3",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 83,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 84,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 87,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 82,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 85,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 88,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 81,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 86,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 89,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         },
+         {
+            "id": 90,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "61878K"
+         }
+      ]
+   },
+   {
+      "name": "Harrison",
+      "surname": "Mapfumo",
+      "sex": "Female",
+      "dob": "1986-01-28T00:00:00.000Z",
+      "national_id_no": "56-62220D78",
+      "license_no": "23758D",
+      "class": "3",
+      "createdAt": "2022-10-09T18:50:46.906Z",
+      "Offenses": [
+         {
+            "id": 96,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 98,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 99,
+            "type": "Double parking",
+            "details": "The driver parked besides a car that was already parked at the side of the road",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 92,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 95,
+            "type": "Fail to produce insurance",
+            "details": "The driver failed to provide insurance documents",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 100,
+            "type": "No Safety belt",
+            "details": "The driver did not put on a safety belt while driving",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 91,
+            "type": "No headlights",
+            "details": "The driver drove a car with non-working headlight(s)",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 94,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 97,
+            "type": "Proceed against red traffic light",
+            "details": "The driver did not stop on a red traffic light",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         },
+         {
+            "id": 93,
+            "type": "Speeding",
+            "details": "The driver did not pay attention to a speed limit",
+            "createdAt": "2022-10-09T18:50:46.914Z",
+            "driver": "23758D"
+         }
+      ]
+   }
+]

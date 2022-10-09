@@ -55,6 +55,7 @@ function LicenseModal(props) {
                aspectRatio: 1,
                borderRadius: '50%',
                border: '5px solid #1976D2',
+               objectFit: 'cover'
             }}
          />
 

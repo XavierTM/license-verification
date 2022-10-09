@@ -1,4 +1,5 @@
 const axios = require("axios");
+const casual = require("casual");
 const { unlink } = require("fs");
 const { createFakeDriverData, createFakeOffensesData } = require("../utils");
 const fs = require('fs').promises;
@@ -20,7 +21,8 @@ if (NODE_ENV === 'production') {
       
       const driver = createFakeDriverData();
       const license_no = driver.license_no;
-      const driverOffenses = createFakeOffensesData(license_no);
+      const offenseCount = casual.integer(0, 5);
+      const driverOffenses = createFakeOffensesData(license_no, offenseCount, driver.createdAt);
 
       drivers.push(driver);
       offenses.push(...driverOffenses);
@@ -43,14 +45,14 @@ if (NODE_ENV === 'production') {
 
 async function generatePictures(license_numbers) {
 
-   const basePath = `${__dirname}/../static/img/drivers`;
+   // const basePath = `${__dirname}/../static/img/drivers`;
 
-   await emptyDir(basePath);
+   // await emptyDir(basePath);
 
-   for (let i in license_numbers) {
-      const license_no = license_numbers[i];
-      await createPicture(basePath, license_no);
-   }
+   // for (let i in license_numbers) {
+   //    const license_no = license_numbers[i];
+   //    await createPicture(basePath, license_no);
+   // }
 }
 
 
@@ -67,7 +69,7 @@ async function emptyDir(path) {
 
 
 async function createPicture(basePath,license_no) {
-   const response = await axios.get('https://picsum.photos/200', { responseType: 'arraybuffer', });
+   const response = await axios.get('rs', { responseType: 'arraybuffer', });
    const data = response.data;
    await fs.writeFile(`${basePath}/${license_no}.jpg`, data);
 }

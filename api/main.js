@@ -46,7 +46,8 @@ app.get('/api/license', async (req, res) => {
          where: { ...query },
          include: {
             model: Offense,
-            attributes: [ 'id', 'type', 'details', 'createdAt']
+            attributes: [ 'id', 'type', 'details', 'createdAt'],
+            order: [ [ 'createdAt', 'ASC' ] ]
          }
       });
 
