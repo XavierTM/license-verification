@@ -36,7 +36,6 @@ class Login extends Page {
          return txtPassword.focus();
       }
 
-   
       try {
 
          showLoading();
