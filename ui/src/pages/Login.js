@@ -57,7 +57,6 @@ class Login extends Page {
 
    }
 
-
    _render() {
 
       return <div style={{ display: 'flex' }} className="fill-container">
