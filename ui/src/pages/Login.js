@@ -18,7 +18,6 @@ const formStyle = css({
 
 class Login extends Page {
 
-
    login = async () => {
 
       const txtUsername = document.getElementById('txt-username');
