@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "./android-certificate",
+            "storePassword": "7cbb4e04-bde8-49f8-ba3b-9fd8df5ab312",
+            "alias": "key0",
+            "password" : "7cbb4e04-bde8-49f8-ba3b-9fd8df5ab312",
+            "keystoreType": "jks"
+        },
+        "release": {
+            "keystore": "./android-certificate",
+            "storePassword": "7cbb4e04-bde8-49f8-ba3b-9fd8df5ab312",
+            "alias": "key0",
+            "password" : "7cbb4e04-bde8-49f8-ba3b-9fd8df5ab312",
+            "keystoreType": "jks"
+        }
+    }
+}

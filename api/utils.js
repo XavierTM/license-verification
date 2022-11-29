@@ -122,4 +122,5 @@ function fakeLicenseNo() {
 module.exports = {
    createFakeDriverData,
    createFakeOffensesData,
+   fakeLicenseNo
 }

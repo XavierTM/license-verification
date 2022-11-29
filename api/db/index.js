@@ -52,6 +52,28 @@ class Offense extends Model {
    }
 }
 
+class User extends Model {
+   static init(sequelize) {
+      super.init({
+         username: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            unique: true
+         },
+         password: {
+            type: DataTypes.STRING,
+            allowNull: false,
+         },
+         type: {
+            type: DataTypes.ENUM('officer', 'admin'),
+            defaultValue: 'officer',
+            allowNull: false
+         }
+      }, { sequelize });
+   }
+}
+
+
 const dialect = `sqlite::${__dirname}/db.sqlite`;
 const sequelize = new Sequelize(dialect, { logging: false, dialect: 'sqlite' });
 
@@ -59,6 +81,7 @@ async function init() {
 
    Driver.init(sequelize);
    Offense.init(sequelize);
+   User.init(sequelize);
 
    Driver.hasMany(Offense, {
       foreignKey: {
@@ -68,18 +91,31 @@ async function init() {
       onDelete: 'CASCADE'
    });
 
-   await sequelize.sync({ force: true });
+   const force = process.env.NODE_ENV !== 'production';
+   await sequelize.sync({ force });
 
-   const json = await require('fs').promises.readFile(`${__dirname}/data.json`, { encoding: 'utf8' });
-   const drivers = JSON.parse(json);
-   const offenses = drivers.reduce((prev, driver) => {
-      prev.push(...driver.Offenses);
-      return prev;
-   }, []);
+   try {
+
+      await User.create({
+         username: 'admin',
+         password: 'admin',
+         type: 'admin',
+      });
+
+      const json = await require('fs').promises.readFile(`${__dirname}/data.json`, { encoding: 'utf8' });
+      const drivers = JSON.parse(json);
+      const offenses = drivers.reduce((prev, driver) => {
+         prev.push(...driver.Offenses);
+         return prev;
+      }, []);
    
-
-   await Driver.bulkCreate(drivers);
-   await Offense.bulkCreate(offenses);
+      await Driver.bulkCreate(drivers);
+      await Offense.bulkCreate(offenses);
+      
+   } catch (err) {
+      console.log(String(err));
+   }
+   
 
 
 }
@@ -88,5 +124,6 @@ async function init() {
 module.exports = {
    Driver,
    Offense,
+   User,
    init
 }

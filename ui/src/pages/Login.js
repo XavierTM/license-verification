@@ -6,11 +6,8 @@ import { TextField } from "@mui/material";
 import { css } from "@emotion/css";
 import { errorToast } from "../toast";
 import actions from "../actions";
-
-const users = {
-   'xavier': 'password'
-}
-
+import { hideLoading, showLoading } from '../loading';
+import request from "../request";
 
 
 const formStyle = css({
@@ -27,7 +24,7 @@ class Login extends Page {
       const txtUsername = document.getElementById('txt-username');
       const txtPassword = document.getElementById('txt-password');
 
-      const username = txtUsername.value.toLowerCase();
+      const username = txtUsername.value.toLowerCase().trim();
       const password = txtPassword.value;
 
       if (!username) {
@@ -40,16 +37,25 @@ class Login extends Page {
          return txtPassword.focus();
       }
 
-      const actualPassword = users[username];
+   
+      try {
 
-      console.log({ username, password, users, actualPassword })
+         showLoading();
 
-      if (!actualPassword || actualPassword !== password) {
-         return errorToast("Invalid credentials");
+         await request.post('/api/login', {
+            username,
+            password,
+            type: 'officer'
+         });
+
+         window.App.redirect("/lookup");
+         actions.setAuthenticated();
+
+      } catch (err) {
+         alert(String(err));
+      } finally {
+         hideLoading();
       }
-
-      window.App.redirect("/lookup");
-      actions.setAuthenticated();
 
    }
 

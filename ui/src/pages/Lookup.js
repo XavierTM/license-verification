@@ -5,18 +5,10 @@ import QrCodeIcon from '@mui/icons-material/QrCode';
 import { errorToast } from "../toast";
 import LookupModal from "../components/LookupModal";
 import LicenseModal from "../components/LicenseModal";
-import axios from "axios";
+import request from "../request";
 import { hideLoading, showLoading } from "../loading";
 import { delay } from "../utils";
 
-
-
-if (process.env.NODE_ENV === 'production') {
-   axios.interceptors.request.use((config) => {
-      config.url = `${process.env.REACT_APP_BACKEND_URL}${config.url}`;
-      return config;
-   });
-}
 
 
 
@@ -69,7 +61,7 @@ class Lookup extends Page {
    
          showLoading();
    
-         const response = await axios.get(`/api/license/?${variableName}=${value}`);
+         const response = await request.get(`/api/license/?${variableName}=${value}`);
          const { data } = response;
    
 

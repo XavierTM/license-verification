@@ -7,11 +7,16 @@ const qrcode = require('qrcode');
 (async () => {
 
    // get data
-   const json = await fs.readFile('db/data.json');
+   const dataSourcePath = 'db/data.json';
+   const json = await fs.readFile(dataSourcePath, { encoding: 'utf8' });
    const drivers = JSON.parse(json);
 
    // make sharable folder if not available
-   await mkDirIfNotExisting('sharable')
+   await mkDirIfNotExisting('sharable');
+
+   // copy json data to sharable
+   const dataPath = 'sharable/data,json';
+   await fs.copyFile(dataSourcePath, dataPath);
 
    // create subfolders
    

@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha --ui tdd --watch tests/",
+    "test": "NODE_ENV=test mocha --timeout 3000 --ui tdd --exit --watch tests/",
     "start": "node .",
     "dev": "nodemon ."
   },

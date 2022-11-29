@@ -31,6 +31,8 @@ class LookupModal extends Component {
             <TextField
                fullWidth
                id="txt-input"
+               size="small"
+               variant="standard"
             />
          </DialogContent>
 
